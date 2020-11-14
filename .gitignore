@@ -8,7 +8,7 @@ erl_crash.dump
 # rebar 2.x
 .rebar
 rel/*
-ebin/*.beam
+ebin/
 deps
 Utlis/mongodb/.rebar
 Utlis/mongodb/rel/*
