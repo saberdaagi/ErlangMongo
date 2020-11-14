@@ -7,11 +7,23 @@ erl_crash.dump
 
 # rebar 2.x
 .rebar
-rel/example_project
+rel/*
 ebin/*.beam
 deps
+Utlis/mongodb/.rebar
+Utlis/mongodb/rel/*
+Utlis/mongodb/ebin/*.beam
+Utlis/mongodb/deps
 
 # rebar 3
-.rebar3
-_build/
-_checkouts/
+Utlis/mongodb/.rebar3
+Utlis/mongodb/_build/
+_Utlis/mongodb/checkouts/
+
+
+# Erlang
+erl_crash.dump
+
+
+#IntelliJ IDEA
+.idea
