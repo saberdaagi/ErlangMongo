@@ -4,10 +4,10 @@
 *.plt
 erl_crash.dump
 
-
-Utlis/mongodb/ebin/
+lib/mongodb/deps/
+lib/mongodb/ebin/
 ebin/
-Utlis/mongodb/.rebar/
+lib/mongodb/.rebar/
 
 
 
