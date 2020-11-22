@@ -1,27 +1,15 @@
 .eunit
 *.o
 *.beam
-*.app
 *.plt
 erl_crash.dump
-.concrete/DEV_MODE
 
-# rebar 2.x
-.rebar
-rel/*
+
+Utlis/mongodb/ebin/
 ebin/
-
- 
-lib/mongodb/.rebar
-lib/mongodb/rel/*
-lib/mongodb/ebin
-
-# rebar 3
-lib/mongodb/.rebar3
-lib/mongodb/_build/
-lib/mongodb/checkouts/
+Utlis/mongodb/.rebar/
 
 
 
-#IntelliJ IDEA
+.DS_Store
 .idea

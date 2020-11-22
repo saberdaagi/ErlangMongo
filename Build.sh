@@ -11,11 +11,11 @@ if [ ! -d "ebin" ]; then
 fi
 
 ## compile Utils
-make -C Utlis/mongodb
-cp -a Utlis/mongodb/ebin/.  ./ebin/
-cp -a Utlis/mongodb/deps/bson/ebin/.  ./ebin/
-cp -a Utlis/mongodb/deps/pbkdf2/ebin/.  ./ebin/
-cp -a Utlis/mongodb/deps/poolboy/ebin/.  ./ebin/
+make -C lib/mongodb
+cp -a lib/mongodb/ebin/.  ./ebin/
+cp -a lib/mongodb/deps/bson/ebin/.  ./ebin/
+cp -a lib/mongodb/deps/pbkdf2/ebin/.  ./ebin/
+cp -a lib/mongodb/deps/poolboy/ebin/.  ./ebin/
 
 ## Compile Reository
 compile_app()
